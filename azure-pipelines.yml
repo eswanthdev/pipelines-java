@@ -1,6 +1,9 @@
 trigger:
-- main
+- releases/*
 
+paths:
+    include:
+    - README.md
 strategy:
   matrix:
     jdk10_linux:
