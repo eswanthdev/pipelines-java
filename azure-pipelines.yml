@@ -1,5 +1,6 @@
 trigger:
-- main
+- master
+- releases/*
 
 pool:
   vmImage: "ubuntu-latest"
@@ -15,4 +16,4 @@ steps:
     publishJUnitResults: true
     testResultsFiles: "**/TEST-*.xml"
     goals: "package"
-    sonarQubeRunAnalysis: false
+    sonarQubeRunAnalysis: true
