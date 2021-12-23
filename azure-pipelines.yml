@@ -23,4 +23,3 @@ steps:
     testResultsFiles: "**/TEST-*.xml"
     goals: "package"
     sonarQubeRunAnalysis: false
-    checkStyleRunAnalysis: true
