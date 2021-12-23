@@ -1,5 +1,6 @@
 trigger:
-- releases-2
+- master
+- releases/*
 
 strategy:
   matrix:
