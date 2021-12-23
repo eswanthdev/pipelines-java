@@ -1,6 +1,6 @@
 trigger:
 - master
-- "*-releases"
+- releases-3"
 
 pool:
   vmImage: "ubuntu-latest"
