@@ -2,14 +2,8 @@ trigger:
 - master
 - releases/*
 
-strategy:
-  matrix:
-    jdk10_linux:
-      imageName: "ubuntu-latest"
-      jdkVersion: "1.10"
-
 pool:
-  vmImage: $(imageName)
+  vmImage: "ubuntu-latest"
 
 steps:
 - task: Maven@3
