@@ -22,4 +22,3 @@ steps:
     testResultsFiles: "**/TEST-*.xml"
     goals: "package"
     sonarQubeRunAnalysis: false
-    allowBrokenSymlinks: true
