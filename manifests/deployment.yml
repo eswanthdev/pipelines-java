@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: testimage11 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testimage11
+  template:
+    metadata:
+      labels:
+        app: testimage11 
+    spec:
+      containers:
+        - name: testimage11 
+          image: conatinerregistrynew.azurecr.io/testimage11
+          ports:
+          - containerPort: 80
